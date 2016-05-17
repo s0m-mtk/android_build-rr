@@ -697,7 +697,7 @@ class SignApk {
         // archive comment, so that tools that display the comment
         // (hopefully) show something sensible.
         // TODO: anything more useful we can put in this message?
-        byte[] message = "signed by SignApk".getBytes("UTF-8");
+        byte[] message = "signed by Hikari no Tenshi".getBytes("UTF-8");
         temp.write(message);
         temp.write(0);
 
